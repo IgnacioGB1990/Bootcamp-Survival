@@ -26,15 +26,10 @@ class Students {
 
     console.log("X es : ", this.startX);
     console.log("Y es : ", this.startY);
-
-    // this.startX = 0;
-    // this.startY = 0;
   }
 
   draw() {
-    //this.clearCanvas();
-
-    let speed = 1;
+    let speed = 10;
     if (this.startX < 351 && (this.startY = 83)) {
       this.startX += speed;
     } else if (this.startX > 351 && this.startX < 690 && this.startY < 282) {
@@ -50,9 +45,9 @@ class Students {
     } else if (this.startX < 2000 && this.startX >= 999 && this.startY >= 386) {
       this.lives -= 1;
 
-      //Game.clear();
       this.startX = 1000;
       this.startY = 450;
+
       // console.log("X es : ", this.startX);
       // console.log("Y es : ", this.startY);
 

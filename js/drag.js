@@ -69,7 +69,7 @@ function dragEnd() {
     rect.left
   );
   console.log("This is the array", towerCoordinates);
-  //console.log("This is how we access coordinates of first element in array");
+  detect();
 }
 
 function dragLeave() {
@@ -79,6 +79,14 @@ function dragLeave() {
 
 //Loop through towers
 
-towerCoordinates.forEach(function(singleTowerCoordinates) {
-  console.log(singleTowerCoordinates);
-});
+function detect() {
+  console.log("Detecto!!!");
+  towerCoordinates.forEach(function(singleTowerCoordinates) {
+    singleTowerCoordinates.addEventListener("change", fireBullet);
+    console.log("is it working", singleTowerCoordinates);
+  });
+}
+
+function fireBullet() {
+  console.log("I fire bullets!!!");
+}
