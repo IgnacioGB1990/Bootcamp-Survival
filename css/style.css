@@ -55,7 +55,7 @@ body {
 }
 
 .tower1 {
-  background-image: url("./img/1.png");
+  background-image: url("../img/1.png");
   height: 50px;
   width: 50px;
   color: white;
@@ -63,7 +63,7 @@ body {
   background-size: contain;
 }
 .tower2 {
-  background-image: url("/img/2.png");
+  background-image: url("../img/2.png");
   height: 50px;
   width: 50px;
   color: white;
@@ -71,7 +71,7 @@ body {
   background-size: contain;
 }
 .tower3 {
-  background-image: url("img/3.png");
+  background-image: url("../img/3.png");
   height: 50px;
   width: 50px;
   color: white;
