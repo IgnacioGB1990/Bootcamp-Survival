@@ -71,7 +71,7 @@ function dragLeave() {
   //console.log("Leave");
   this.classList.remove("hoveredArea");
 }
-
+//Now working
 //Set up Canvas to delete bullets
 
 // let canvas = document.getElementById("canvas");
