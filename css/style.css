@@ -50,12 +50,12 @@ body {
 
 .goodbye {
   top: 25px;
-  left: 1025px;
+  left: 1000px;
   position: absolute;
 }
 
 .tower1 {
-  background-image: url("../img/chucho.png");
+  background-image: url("../img/1.png");
   height: 50px;
   width: 50px;
   color: white;
@@ -63,7 +63,7 @@ body {
   background-size: contain;
 }
 .tower2 {
-  background-image: url("../img/frog.png");
+  background-image: url("../img/2.png");
   height: 50px;
   width: 50px;
   color: white;
@@ -71,7 +71,7 @@ body {
   background-size: contain;
 }
 .tower3 {
-  background-image: url("../img/grut.png");
+  background-image: url("../img/3.png");
   height: 50px;
   width: 50px;
   color: white;
@@ -79,7 +79,7 @@ body {
   background-size: contain;
 }
 .tower4 {
-  background-image: url("../img/wizard.png");
+  background-image: url("../img/4.png");
   height: 50px;
   width: 50px;
   color: white;
@@ -87,7 +87,7 @@ body {
   background-size: contain;
 }
 .tower5 {
-  background-image: url("../img/fire.png");
+  background-image: url("../img/5.png");
   height: 50px;
   width: 50px;
   color: white;
@@ -986,17 +986,13 @@ body {
   height: 100px; */
 }
 .hoveredArea {
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4;
   border-style: dashed;
-  width: 100px;
-  height: 100px;
-
-  opacity: 0.5;
+  width: 150px;
+  height: 150px;
+  opacity: 0.4;
+  text-align: center; */
 }
 .invisible {
   display: none;
-}
-
-.invisible2 {
-  /* display: none; */
 }

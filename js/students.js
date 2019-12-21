@@ -29,7 +29,7 @@ class Students {
   }
 
   draw() {
-    let speed = 10;
+    let speed = 1;
     if (this.startX < 351 && (this.startY = 83)) {
       this.startX += speed;
     } else if (this.startX > 351 && this.startX < 690 && this.startY < 282) {
@@ -43,10 +43,10 @@ class Students {
     } else if (this.startX >= 999 && this.startY > 82 && this.startY < 386) {
       this.startY += speed;
     } else if (this.startX < 2000 && this.startX >= 999 && this.startY >= 386) {
-      this.lives -= 1;
+      //this.lives -= 1;
 
       this.startX = 1000;
-      this.startY = 450;
+      this.startY = 390;
 
       // console.log("X es : ", this.startX);
       // console.log("Y es : ", this.startY);
@@ -61,22 +61,6 @@ class Students {
       survivors[0].style.padding = "0px 10px";
       survivors[0].style.transform = "scale(1.2)";
     }
-
-    // if (this.lives <= 0) {
-    //   window.cancelAnimationFrame();
-    // }
-
-    // else if ((this.startX = 3000) && (this.startY = 3000)) {
-    //   let win = new Audio("sounds/Okay.mp3");
-    //   console.log("X e Y 3000");
-    //   //this.clearWhenWin();
-
-    //   //win.play();
-    // }
-
-    //ctx.clearRect(this.posX, this.posY, 300, 300);
-
-    // window.requestAnimationFrame(this.draw.bind(this));
 
     this.ctx.drawImage(
       this.image,
